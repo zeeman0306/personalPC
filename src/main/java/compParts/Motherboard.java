@@ -14,4 +14,37 @@ public class Motherboard {
         this.cardSlots = cardSlots;
         this.bios = bios;
     }
+
+
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public int getRamSlots() {
+        return ramSlots;
+    }
+
+    public int getCardSlots() {
+        return cardSlots;
+    }
+
+    public String getBios() {
+        return bios;
+    }
+
+    @Override
+    public String toString() {
+        return "Motherboard{" +
+                "model='" + model + '\'' +
+                ", manufacturer='" + manufacturer + '\'' +
+                ", ramSlots=" + ramSlots +
+                ", cardSlots=" + cardSlots +
+                ", bios='" + bios + '\'' +
+                '}';
+    }
 }

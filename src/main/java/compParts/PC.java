@@ -15,10 +15,12 @@ public class PC {
     }
 
     //method
-    public drawLogo(){
-
-
-
+    public void drawLogo(){
+        this.showLogo();
+    }
+    public void powerUp(){
+        this.pressPowerButton();
+        this.drawLogo();
     }
 
 
